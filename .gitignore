@@ -1,0 +1,4 @@
+# generated data (see tasks/README.md)
+*.csv
+__pycache__/
+.DS_Store
