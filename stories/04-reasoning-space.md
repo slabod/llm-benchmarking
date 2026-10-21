@@ -18,7 +18,7 @@ The first competition was Math Cup 2026: 10 models solved the qualifier and fina
 
 ## The Hamiltonian-path problem (Math Cup 2026 final, a competition I organized)
 
-The problem was proposed by D. G. Sagunov.
+The problem was proposed by [D. G. Sagunov](https://danilka.pro) (Danil Sagunov, St. Petersburg State University and ITMO University), who works on parameterized algorithms for long paths and cycles.
 
 > A simple graph $`G`$ on $`n`$ vertices has a Hamiltonian path. Find (a) a simple path of length $`\Omega(\log n)`$ in polynomial time; (b) a simple path of length $`\omega(\log n)`$ in expected polynomial time. The length of a path is its number of edges.
 
@@ -36,7 +36,7 @@ What the models did:
 - (a) the DFS tree of a graph with a Hamiltonian path has depth at least $`\log_2 n`$, so its deepest root-to-leaf path works;
 - (b) color coding finds, in expected polynomial time, a cycle of length at least $`\log n`$ through a given vertex if one exists; a recursion over three cases (a cut vertex, such a cycle exists, no such cycle exists) glues the pieces into a path of length $`\Omega(\log^2 n / \log\log n) = \omega(\log n)`$.
 
-**Background.** The problem is a special case of a known line of results, summarised in the related-work section of [Fomin, Golovach, Sagunov, Simonov, "Approximating Long Cycle Above Dirac's Guarantee"](https://arxiv.org/abs/2305.02011) (page 2). If a graph has a simple path of length $`L`$, a polynomial-time algorithm can find, in chronological order of the results:
+**Research background.** The problem is a special case of a known line of results, summarised in the related-work section of [Fomin, Golovach, Sagunov, Simonov, "Approximating Long Cycle Above Dirac's Guarantee"](https://arxiv.org/abs/2305.02011) (page 2). If a graph has a simple path of length $`L`$, a polynomial-time algorithm can find, in chronological order of the results:
 
 - a path of length $`\Omega(\log L / \log\log L)`$, from the parameterized algorithms of Monien and of Bodlaender;
 - a path of length $`\Omega(\log L)`$, by color coding (Alon, Yuster and Zwick);
@@ -44,9 +44,9 @@ What the models did:
 - a cycle of length $`2^{\Omega(\sqrt{\log L / \log\log L})}`$ in a graph with a cycle of length $`L`$ (Gabow);
 - a cycle of length $`2^{\Omega(\sqrt{\log L})}`$ (Gabow and Nie), the best known bound as far as the problem's author knows.
 
-Whether a path of length $`L^{\varepsilon}`$ for some fixed $`\varepsilon > 0`$ can be found in polynomial time is an open question in theoretical computer science: $`2^{\Omega(\sqrt{\log L})}`$ beats every power of $`\log L`$ but not $`L^{\varepsilon}`$, and the gap to the known hardness results is still large.
-
 So part (a) is the color-coding level, and part (b) asks to go beyond it in the special case $`L = n - 1`$.
+
+**Status in research: open.** Whether a path of length $`L^{\varepsilon}`$ for some fixed $`\varepsilon > 0`$ can be found in polynomial time is an open question in theoretical computer science: $`2^{\Omega(\sqrt{\log L})}`$ beats every power of $`\log L`$ but not $`L^{\varepsilon}`$, and the gap to the known hardness results is still large.
 
 ## Overall result
 
