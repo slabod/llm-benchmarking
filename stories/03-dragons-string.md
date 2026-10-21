@@ -10,16 +10,16 @@ I lead the organization of the CS Space student mathematics competitions: the Ma
 
 "The Dragon's String" is my problem 8 of the December 2025 final ([statement and solution](https://storage.yandexcloud.net/csspace-bucket/competitions/2025fall-math-cup/final_sol.pdf)). It was voted the best problem of that final.
 
-> A Dragon brings a binary string of length n. The Princess sees the whole string; the Prince sees nothing. In each of n rounds, the Prince and the Princess secretly write one bit each, then reveal them, and the Dragon announces the i-th bit of the string. If all three bits are equal, the team gets a candy. The team agrees on a strategy in advance. Let C(n) be the largest number of candies the team can guarantee for every string. Find sup C(n)/n.
+> A Dragon brings a binary string of length $`n`$. The Princess sees the whole string; the Prince sees nothing. In each of $`n`$ rounds, the Prince and the Princess secretly write one bit each, then reveal them, and the Dragon announces the $`i`$-th bit of the string. If all three bits are equal, the team gets a candy. The team agrees on a strategy in advance. Let $`C(n)`$ be the largest number of candies the team can guarantee for every string. Find $`\sup_n C(n)/n`$.
 
-**Answer:** α ≈ 0.81071, the root of H₂(α) + (1 − α)·log₂ 3 = 1. The upper bound is a counting argument; the lower bound needs a strategy in which the Princess spends some rounds on signalling future bits to the Prince. The value coincides with the constant of Gossner, Hernández and Neyman ("Optimal use of communication resources", Econometrica 2006) for an i.i.d. Nature.
+**Answer:** $`\alpha \approx 0.81071`$, the root of $`H_2(\alpha) + (1 - \alpha)\log_2 3 = 1`$, where $`H_2`$ is the binary entropy. The upper bound is a counting argument; the lower bound needs a strategy in which the Princess spends some rounds on signalling future bits to the Prince. The value coincides with the constant of Gossner, Hernández and Neyman ("Optimal use of communication resources", Econometrica 2006) for an i.i.d. Nature.
 
 ## Grading model solutions (October 2026)
 
 Scale agreed before grading (maximum 3 points):
 
-- 1 point: a proven strategy asymptotically better than n/2;
-- 2 points: a proven strategy reaching 2n/3 or better;
+- 1 point: a proven strategy asymptotically better than $`n/2`$;
+- 2 points: a proven strategy reaching $`2n/3`$ or better;
 - 3 points: the exact value via the formula above with proof (upper bound and achievability);
 - a correct number without the defining formula or without a proof is not 3 points.
 

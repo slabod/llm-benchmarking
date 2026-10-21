@@ -25,7 +25,7 @@ Both games produced the same families of winners:
 
 - **Arithmetic with repeated digits:** 1+1+1+1+11+1+1+1+1. The answer is 19; o1 answered 20.
 - **Irrelevant details:** "Masha had 10 apples, Misha had 7 apples. Masha gave Misha 5 apples. How many apples did Masha have?" The answer, 10, is in the first clause, and the rest is noise; o1 subtracted and answered 5.
-- **Geometric riddles** rather than textbook geometry: "Connect the entrance and the exit of the maze in the picture with a line. How long is the line?", moving one matchstick to fix an equation, the most triangles from k matches.
+- **Geometric riddles** rather than textbook geometry: "Connect the entrance and the exit of the maze in the picture with a line. How long is the line?", moving one matchstick to fix an equation, the most triangles from $`k`$ matches.
 - **Wrapping arithmetic in a socially sensitive frame**, so that the safety behaviour takes over and the model refuses or answers a different question (o1 only).
 
 ## Re-test, October 2026

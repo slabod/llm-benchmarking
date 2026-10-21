@@ -10,14 +10,14 @@
 
 My hypothesis was that the device is the wrong unit and that these devices come from reinstalls: a user deletes the app, installs it again, and the new install is randomized again.
 
-**What the agent did** (Claude Opus 5, August 2026). It found that devices with two installs have them in different exp_samples in 75% of cases. Two independent draws from four equal groups differ with probability 3/4, so it reported the hypothesis "confirmed with quantitative precision".
+**What the agent did** (Claude Opus 5, August 2026). It found that devices with two installs have them in different exp_samples in 75% of cases. Two independent draws from four equal groups differ with probability $`3/4`$, so it reported the hypothesis "confirmed with quantitative precision".
 
 It then built two more claims on this, a monthly reinstall rate and an explanation of a skew in the data; both were wrong. Within the hour, looking at example devices, it found the real cause.
 
 **Correct answer.**
 
 - The check confirms only the first half of the hypothesis: installs are randomized independently, so the device is the wrong unit.
-- It cannot show where the extra installs come from: any two independently randomized installs on one device give 3/4 (with k installs, the probability of landing in more than one exp_sample is 1 − 4^(1−k)).
+- It cannot show where the extra installs come from: any two independently randomized installs on one device give $`3/4`$ (with $`k`$ installs, the probability of landing in more than one exp_sample is $`1 - 4^{1-k}`$).
 - A discriminating check asks whether the two installs are the same app and whether they were active at the same time.
 
 In our case almost all extra installs were a second, different app on the same phone, not reinstalls. The cause matters for the remedy: a parallel install usually predates the experiment, while a reinstall happens after assignment and can be caused by the treatment.

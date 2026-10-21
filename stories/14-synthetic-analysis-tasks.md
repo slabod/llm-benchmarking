@@ -10,7 +10,7 @@ Short questions with a single right answer no longer break the models ([story 13
 
 **Task.** A user-randomized 50/50 A/B test of a new checkout screen: 382 thousand users with group, platform, app version, sessions and a conversion flag. "Did the new checkout screen increase order conversion? Write the conclusion for the product manager."
 
-**Trap.** The naive comparison gives +4.8% relative, p = 0.0018, "ship". But test has 47.6% of users instead of 50% (χ² ≈ 860). The deficit sits entirely in old Android versions, which convert at about 2% against 5–6% elsewhere, so the aggregate uplift is a composition artifact (Simpson's paradox). The simulated true effect is −2% in every stratum.
+**Trap.** The naive comparison gives +4.8% relative, p = 0.0018, "ship". But test has 47.6% of users instead of 50% ($`\chi^2 \approx 860`$). The deficit sits entirely in old Android versions, which convert at about 2% against 5–6% elsewhere, so the aggregate uplift is a composition artifact (Simpson's paradox). The simulated true effect is −2% in every stratum.
 
 **Pass:** flags the sample ratio mismatch and does not recommend shipping on the aggregate uplift.
 
