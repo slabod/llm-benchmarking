@@ -24,7 +24,9 @@ In our case almost all extra installs were a second, different app on the same p
 
 ## Blind re-tests (October 2026)
 
-I gave the same check, with no other context, to current models. The prompt uses synthetic numbers close to the real ones, so it is not published.
+I gave the same check, with no other context, to current models. The prompt uses synthetic numbers close to the real ones, so it is not published; here it is paraphrased without the numbers:
+
+> The A/B platform assigns exp_samples independently per app install. One experiment has four exp_samples of equal size. Grouped by device, some devices appear in more than one exp_sample. A colleague's hypothesis: these are users who reinstalled the app, and the new install was randomized again. We checked it: among devices with exactly two installs, about three quarters have them in different exp_samples; among devices with three or more installs, the share is close to 15/16. Write a short conclusion for the ticket: is the hypothesis confirmed, and what should we do about these devices in the analysis?
 
 **Round 1** (rule written after 2 of 6 answers arrived, before reading the others). Pass: the conclusion does not call the hypothesis confirmed, because the rates follow from any mechanism that gives a device several independently randomized installs. Fail: the headline says confirmed, even with a soft caveat.
 

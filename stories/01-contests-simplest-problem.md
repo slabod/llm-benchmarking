@@ -44,7 +44,7 @@ Claude wrote similar problems at my request, and current Claude models answered 
 | 8 | The apples problem above (in Russian, with "было", "had") | 10 | Sonnet 5.5 answered 5; Opus 5.5 and Fable 5.1 answered 10 and noted that 5 remain after the gift |
 | 9 | 1+1+1+1+11+1+1+1+1 | 19 | all correct |
 
-Models: Haiku 5.5 (default effort), Sonnet 5.5 (high), Opus 5.5 (low and high), Fable 5.1 (high), one run each. Ten more geometric riddles and five short trap questions are in [story 13](13-puzzle-retests.md).
+Models: Haiku 5.5 (default effort), Sonnet 5.5 (high), Opus 5.5 (low and high), Fable 5.1 (high), one run each. The exact prompts of all re-test questions are in [story 13](13-puzzle-retests.md#exact-prompts), together with ten more geometric riddles and five short trap questions.
 
 **Context of the runs:** my personal Claude Code instructions were loaded, and the prompt framed the set as simple questions that frontier agents still get wrong, which primes a model to look for traps. The results are an upper bound.
 

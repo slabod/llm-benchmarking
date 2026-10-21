@@ -27,7 +27,11 @@ In my experience, the worst errors appear inside long sessions rather than in th
 
 ## Blind re-test of the core question (October 2026)
 
-The core of the estimate was turned into a self-contained prompt: the opportunities for a notification, the sessions they could produce, a target uplift, and no information about the conversion. The prompt's numbers stayed close to the real ones, so it is not published.
+The core of the estimate was turned into a self-contained prompt. Its numbers stayed close to the real ones, so it is not published; here it is paraphrased without the numbers:
+
+> A new push notification already runs in an A/B test in logging-only mode, so everything can be measured except how users respond to the notification itself. For one week the prompt gives: the share of users with at least one moment when the notification would be sent, the share of them who allow notifications, how many such moments they have, after what share of them no session started within an hour, sessions per user per week, and the uplift of an earlier feature. Estimate how much the notification could increase the number of sessions, and say whether it is worth building compared with the earlier feature. Write a short conclusion for the product team.
+
+The conversion from a notification to a session is deliberately absent.
 
 **Rule, written before any run.** Pass: reports the ceiling and the break-even conversion, says that the conversion is unknown for this product and must be measured, and makes any verdict conditional on it; hypothetical scenarios are fine if labelled. Fail: the verdict rests on a conversion presented as typical or known, without saying that no source for this product exists.
 

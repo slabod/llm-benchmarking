@@ -18,7 +18,9 @@ The first competition was Math Cup 2026: 10 models solved the qualifier and fina
 
 ## The Hamiltonian-path problem (Math Cup 2026 final, a competition I organized)
 
-> A simple graph $`G`$ on $`n`$ vertices has a Hamiltonian path. Find (a) a simple path of length $`\Omega(\log n)`$ in polynomial time; (b) a simple path of length $`\omega(\log n)`$ in expected polynomial time.
+> A simple graph $`G`$ on $`n`$ vertices has a Hamiltonian path. Find (a) a simple path of length $`\Omega(\log n)`$ in polynomial time; (b) a simple path of length $`\omega(\log n)`$ in expected polynomial time. The length of a path is its number of edges.
+
+Original statement (in Russian), the official solution and all model solutions: [Reasoning Space, Math Cup 2026 final, problem 6](https://reasoning.csspace.io/problems/math-cup-2026-final/task6).
 
 What the models did:
 
@@ -34,6 +36,16 @@ What the models did:
 
 ## Overall result
 
-Two of the 17 Math Cup 2026 problems were not fully solved by any model: this one and "Find a common language" from the qualifier (count the words of length 95 in the intersection of two context-free languages over $`\{a, b\}`$; the best score was 3 of 4, by Fable 5 and Opus 5). Per-problem results were read from the Reasoning Space site in October 2026.
+Two of the 17 Math Cup 2026 problems were not fully solved by any model: the Hamiltonian-path problem above and "Find a common language" from the qualifier. Per-problem results were read from the Reasoning Space site in October 2026.
+
+## "Find a common language" (Math Cup 2026 qualifier)
+
+> Two context-free grammars over the alphabet $`\{a, b\}`$ are given. Grammar $`G_1`$ with start symbol $`S`$: $`S \to \varepsilon \mid aS \mid aSbSaSaS \mid aSaSbSaS`$. Grammar $`G_2`$ with start symbol $`T`$: $`T \to \varepsilon \mid aTa \mid bTbTbTbTb`$. Find the number of words of length 95 in $`L(G_1) \cap L(G_2)`$.
+
+Translated from Russian. Original statement, the official solution and all model solutions: [Reasoning Space, Math Cup 2026 qualifier, problem 8](https://reasoning.csspace.io/problems/math-cup-2026-qualifying/task8).
+
+**Answer:** 71 024 813 194. The official solution first shows that a non-empty word is in $`L(G_1)`$ exactly when it starts and ends with $`a`$, has no factor $`bb`$ and satisfies $`|w|_a \ge 3|w|_b`$. Then $`|w|_b \in \{5, 15\}`$; the case of 5 letters $`b`$ gives $`\binom{44}{4} = 135\,751`$ words, and the case of 15 gives 71 024 677 443, counted by inclusion–exclusion over generating functions.
+
+**Result:** the best score was 3 of 4, by Claude Fable 5 and Opus 5; no model got full marks.
 
 **Conclusion:** at the research end of olympiad mathematics the typical failure in May 2026 was not a wrong computation but a missing proof: models cited a theorem instead of proving it, and sometimes cited a paper that does not contain it. These are the models of May 2026; the problems have not been re-run on Opus 5.5 or Fable 5.1.
