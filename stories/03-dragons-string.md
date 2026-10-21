@@ -6,9 +6,9 @@
 
 ## The problem
 
-I lead the organization of the CS Space student mathematics competitions: the Math Tournament (April 2025), Math Cup 2025 (December 2025) and Math Cup 2026 (May 2026). Teams of up to three solve problems of roughly IMO difficulty in TCS, combinatorics, probability, algebra and analysis, first in an online qualifier, then in a three-hour oral final.
+I lead the organization of the CS Space student mathematics competitions: the Math Tournament (April 2025), [Math Cup 2025](https://csspace.io/competition/2025fall-math-cup) (December 2025) and [Math Cup 2026](https://csspace.io/competition/2026spring-math-cup) (May 2026). Teams of up to three solve problems of roughly IMO difficulty in TCS, combinatorics, probability, algebra and analysis, first in an online qualifier, then in a three-hour oral final.
 
-"The Dragon's String" is my problem 8 of the December 2025 final; the statement and the official solution were published after the final. It was voted the best problem of that final.
+"The Dragon's String" is my problem 8 of the December 2025 final ([statement and solution](https://storage.yandexcloud.net/csspace-bucket/competitions/2025fall-math-cup/final_sol.pdf)). It was voted the best problem of that final.
 
 > A Dragon brings a binary string of length n. The Princess sees the whole string; the Prince sees nothing. In each of n rounds, the Prince and the Princess secretly write one bit each, then reveal them, and the Dragon announces the i-th bit of the string. If all three bits are equal, the team gets a candy. The team agrees on a strategy in advance. Let C(n) be the largest number of candies the team can guarantee for every string. Find sup C(n)/n.
 

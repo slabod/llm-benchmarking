@@ -3,7 +3,7 @@
 Since early 2025 I have been probing where language models break: on mathematics, algorithms and statistics, and in everyday work with agents. My sources are:
 
 - contests I ran;
-- an olympiad benchmark we run at CS Space, [Reasoning Space](https://reasoning.csspace.io/);
+- an olympiad benchmark we run at [CS Space](https://csspace.io/);
 - daily work with agents as an A/B-testing analyst.
 
 This repository collects everything I did in chronological order, with an index by topic. Each story has its own file with the setting, what the model did, what I think the correct answer is, and later re-tests.
@@ -24,7 +24,7 @@ The frontier has moved from puzzles to perception and judgment, that is, reading
 
 | When | What | Topic | Story |
 |---|---|---|---|
-| May 2025 | Team game at a meetup for mathematicians: invent the simplest school olympiad problem that OpenAI o1 cannot solve | Math | [01](stories/01-contests-simplest-problem.md) |
+| May 2025 | Team game at a Yandex meetup for mathematicians: invent the simplest school olympiad problem that OpenAI o1 cannot solve | Math | [01](stories/01-contests-simplest-problem.md) |
 | July 2025 | The same game at the CS Space meetup "LLM in mathematics and algorithms", 15 teams, against DeepSeek R1 | Math | [01](stories/01-contests-simplest-problem.md) |
 | 2025 | St. Petersburg city olympiad problems through the best reasoning models of the time (DeepSeek R1, Gemini, ChatGPT): some problems for grades 6–8 failed | Math | [02](stories/02-city-olympiad.md) |
 | December 2025 | "The Dragon's String", my problem for the Math Cup 2025 final, voted the best problem of the final | Math | [03](stories/03-dragons-string.md) |

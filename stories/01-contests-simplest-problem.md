@@ -1,6 +1,6 @@
 # 01. Contests: the simplest problem a top model cannot solve
 
-**When:** May 2025 and July 2025; re-test in October 2026.
+**When:** 31 May 2025 and 5 July 2025; re-test in October 2026.
 **Topic:** mathematics and puzzles.
 **Models:** OpenAI o1 (2025), DeepSeek R1 (2025); Claude Haiku 5.5, Sonnet 5.5, Opus 5.5, Fable 5.1 (re-test, 2026).
 
@@ -8,8 +8,8 @@
 
 Twice I ran a team game: invent the simplest school olympiad problem with a numeric answer that a top model cannot solve.
 
-1. A meetup for mathematicians, May 2025. The model to break was OpenAI o1.
-2. CS Space meetup "LLM in mathematics and algorithms", 5 July 2025 ([announcement](https://t.me/csspace/110)). I opened the meetup; the game "A hard problem for an LLM" ran in the practical part. 15 teams played against DeepSeek R1.
+1. [Yandex meetup for mathematicians](https://events.yandex.ru/events/ya-math-and-analytics-31-05-2025/index), 31 May 2025, about mathematics in search analytics. The model to break was OpenAI o1.
+2. [CS Space meetup "LLM in mathematics and algorithms"](https://csspace.io/meetup/2025summer-LLM), 5 July 2025 ([announcement](https://t.me/csspace/110)). I opened the meetup; the game "A hard problem for an LLM" ran in the practical part. 15 teams played against DeepSeek R1.
 
 Rules of the first game:
 

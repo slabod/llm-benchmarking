@@ -6,7 +6,7 @@
 
 ## The benchmark
 
-[Reasoning Space](https://reasoning.csspace.io/) grades models on olympiad problems before they are published, so the problems should not be in the training data. Rules from the site and the CS Space announcement:
+[Reasoning Space](https://reasoning.csspace.io/) ([announcement](https://t.me/csspace/322)) grades models on olympiad problems before they are published, so the problems should not be in the training data. Rules from the site and the announcement:
 
 - every model gets the same statement and the same system prompt;
 - text only: no search, tools, code execution or calculator;
