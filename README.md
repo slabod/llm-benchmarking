@@ -67,7 +67,7 @@ The frontier has moved from puzzles to perception and judgment, that is, reading
 | July 2025 | The same game at the CS Space meetup "LLM in mathematics and algorithms", 15 teams, against DeepSeek R1 | Math | [01](stories/01-contests-simplest-problem.md) |
 | 2025 | St. Petersburg city olympiad problems through the best reasoning models of the time (DeepSeek R1, Gemini, ChatGPT): some problems for grades 6–8 failed | Math | [02](stories/02-city-olympiad.md) |
 | December 2025 | "The Dragon's String", my problem for the Math Cup 2025 final, voted the best problem of the final | Math | [03](stories/03-dragons-string.md) |
-| May 2026 | Reasoning Space: CS Space benchmark on Math Cup 2026 problems before publication; none of 10 models solved part (b) of the Hamiltonian-path problem I co-authored | Math | [04](stories/04-reasoning-space.md) |
+| May 2026 | Reasoning Space: CS Space benchmark on Math Cup 2026 problems before publication; none of 10 models solved part (b) of the Hamiltonian-path problem from the final of Math Cup 2026, a competition I organized | Math | [04](stories/04-reasoning-space.md) |
 | May 2026 | Claude Opus solves every problem of the city olympiad for grades 7 and 11 | Math | [02](stories/02-city-olympiad.md) |
 | June–September 2026 | At work: "the effect is concentrated in segment A" because only A is significant; a total tested as a per-user mean; smaller statistics slips | Stats | [05](stories/05-where-is-the-effect.md) |
 | July–September 2026 | At work: missing context (a number from the wrong source labelled "verified", a field's meaning inferred from its name, a self-invented proxy) | Context | [06](stories/06-missing-context.md) |

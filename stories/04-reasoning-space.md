@@ -16,7 +16,7 @@
 
 The first competition was Math Cup 2026: 10 models solved the qualifier and final problems.
 
-## The problem I co-authored (Math Cup 2026 final)
+## The Hamiltonian-path problem (Math Cup 2026 final, a competition I organized)
 
 > A simple graph $`G`$ on $`n`$ vertices has a Hamiltonian path. Find (a) a simple path of length $`\Omega(\log n)`$ in polynomial time; (b) a simple path of length $`\omega(\log n)`$ in expected polynomial time.
 
