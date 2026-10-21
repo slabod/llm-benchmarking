@@ -37,6 +37,6 @@ The core of the estimate was turned into a self-contained prompt: the opportunit
 
 - All 15 answers computed the ceiling and the break-even conversion correctly.
 - All 15 then leaned on a generic push-notification benchmark ("low single digits", often a tap rate rather than incremental sessions) to call the feature unlikely to pay off. About two thirds tied the decision to a small live test.
-- Under the written rule roughly 9 to 13 of 15 pass (several are borderline).
+- Under the written rule roughly 9 to 13 of 15 pass (several are borderline). By model: Sonnet 5.5 passed 5 of 5; Opus 5.5 3 of 5, with 2 borderline; Fable 5.1 1 of 5, with 2 borderline and 2 failures.
 
 **A grading error.** The grading agent's first verdict was 0 of 15. The adversarial review showed that it had applied a stricter rule than the one written down ("any headline that leans on a prior fails"), and the 0 of 15 was withdrawn. A defensible reading is that an industry prior is ordinary Bayesian practice, as long as it is labelled. This episode is the origin of the first rule in [methodology](../methodology.md).

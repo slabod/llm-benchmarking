@@ -10,6 +10,45 @@ This repository collects everything I did in chronological order, with an index 
 
 *Mikhail Slabodkin: mathematician (proof complexity), teacher of algorithms and the theory of computation, analyst of A/B experiments. Status as of 21 October 2026.*
 
+## Status at a glance (October 2026)
+
+✅ solved · ⚠️ mixed · ❌ fails · ⏳ not tested on this model
+
+**Still solved poorly by current models**
+
+| Task | Opus 5.5 | Fable 5.1 | Sonnet 5.5 | Runs | Story |
+|---|---|---|---|---|---|
+| Judge a check that cannot tell two causes apart: confirmation or not? | ✅ 5/5 | ❌ 2/5 | ✅ 5/5 | 5 each, clean context | [08](stories/08-confirmation-that-does-not-discriminate.md) |
+| One-sentence conclusion from per-segment p-values | ✅ 2/2 | ⚠️ 1/2 | ❌ 0/2 | 2 each | [05](stories/05-where-is-the-effect.md) |
+| Estimate with an unknown conversion rate | ⚠️ 3/5, 2 borderline | ❌ 1/5, 2 borderline | ✅ 5/5 | 5 each, clean context | [11](stories/11-notification-estimate.md) |
+
+**Failed when last tried, not yet re-tested on current models**
+
+| Task | Last result | Story |
+|---|---|---|
+| Part (b) of the Hamiltonian-path problem, Math Cup 2026 | ❌ none of 10 models, May 2026 (Claude Opus 5, Fable 5, GPT-5.6 Sol, Gemini 3.1 Pro, DeepSeek V4 Pro, Kimi K3 and others) | [04](stories/04-reasoning-space.md) |
+| "Find a common language", Math Cup 2026 | ⚠️ best 3 of 4 points (Claude Fable 5, Opus 5), May 2026 | [04](stories/04-reasoning-space.md) |
+| Draw a route on a map screenshot | ❌ Claude Fable 5, July 2026 | [07](stories/07-route-on-a-map.md) |
+| Check rendered slides before saying "checked" | ❌ Claude Opus 5 and Fable 5.1, September 2026 | [09](stories/09-slides.md) |
+| Keep a folk claim consistent with the correct slides next to it | ❌ Claude Fable 5.1, September 2026 | [10](stories/10-sorting-barrier.md) |
+| Take a number from the right source and a field's meaning from its documentation | ❌ Claude Opus 4.8 and Opus 5, July–September 2026 | [06](stories/06-missing-context.md) |
+| Write for a reader who lacks the agent's context | ❌ observed with every Claude model I used, including Opus 5.5 and Fable 5.1 | [12](stories/12-who-knows-what.md) |
+
+**Solved by current models**
+
+| Task | Opus 5.5 | Fable 5.1 | Sonnet 5.5 | Runs | Story |
+|---|---|---|---|---|---|
+| Winning problems of the 2025 contests (9) | ✅ 9/9 | ✅ 9/9 | ⚠️ 8/9, a defensible misreading | 1 | [01](stories/01-contests-simplest-problem.md) |
+| Geometric riddles as text (10) | ✅ 10/10 | ✅ 10/10 | ✅ 10/10 | 1 | [13](stories/13-puzzle-retests.md) |
+| Short trap questions on algorithms and statistics (5) | ✅ 5/5 | ✅ 5/5 | ⏳ | 1 | [13](stories/13-puzzle-retests.md) |
+| Putnam 1990 A4 | ✅ | ✅ | ✅ | 1, recall likely | [13](stories/13-puzzle-retests.md) |
+| "The Dragon's String" | ✅ at medium effort and above, ❌ at low | ✅ | ✅ | 1 per setting, recall possible | [03](stories/03-dragons-string.md) |
+| A total tested as a per-user mean | ✅ | ✅ | ✅ | 1 | [05](stories/05-where-is-the-effect.md) |
+| A/B test with a hidden sample ratio mismatch | ✅ | ✅ | ✅ | 1 | [14](stories/14-synthetic-analysis-tasks.md) |
+| Sessions versus journeys | ✅ 3/3 | ✅ 2/2 | ✅ 2/2 | weak: a hint was in context | [14](stories/14-synthetic-analysis-tasks.md) |
+
+School olympiad papers are solved too: in May 2026 Claude Opus solved every problem of the St. Petersburg city olympiad for grades 7 and 11 ([02](stories/02-city-olympiad.md)). Except where marked "clean context", the runs loaded my personal Claude Code instructions, so a pass there is an upper bound ([details](#how-the-october-2026-tests-were-run)).
+
 ## Takeaway
 
 The frontier has moved from puzzles to perception and judgment, that is, reading a map or a slide, statistical inference, honest proofs, context and verification.
