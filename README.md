@@ -30,7 +30,7 @@ This repository collects everything I did in chronological order, with an index 
 | "Find a common language", Math Cup 2026 | ⚠️ best 3 of 4 points (Claude Fable 5, Opus 5), May 2026 | [04](stories/04-reasoning-space.md) |
 | Draw a route on a map screenshot | ❌ Claude Fable 5, July 2026 | [07](stories/07-route-on-a-map.md) |
 | Check rendered slides before saying "checked" | ❌ Claude Opus 5 and Fable 5.1, September 2026 | [09](stories/09-slides.md) |
-| Keep a folk claim consistent with the correct slides next to it | ❌ Claude Fable 5.1, September 2026 | [10](stories/10-sorting-barrier.md) |
+| Avoid a false "impossible": a slide said shortest paths cannot be found faster than sorting, while other slides of the same presentation showed faster algorithms | ❌ Claude Fable 5.1, September 2026 | [10](stories/10-sorting-barrier.md) |
 | Take a number from the right source and a field's meaning from its documentation | ❌ Claude Opus 4.8 and Opus 5, July–September 2026 | [06](stories/06-missing-context.md) |
 | Write for a reader who lacks the agent's context | ❌ observed with every Claude model I used, including Opus 5.5 and Fable 5.1 | [12](stories/12-who-knows-what.md) |
 
